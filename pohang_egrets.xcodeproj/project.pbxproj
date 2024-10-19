@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CC134E9D2CC365DC000599FF /* pohang_egrets_watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CC134E7A2CC365DB000599FF /* pohang_egrets_watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		CC134E562CC362A9000599FF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,12 +25,50 @@
 			remoteGlobalIDString = CC134E442CC362A8000599FF;
 			remoteInfo = pohang_egrets;
 		};
+		CC134E8A2CC365DC000599FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC134E3D2CC362A8000599FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC134E792CC365DB000599FF;
+			remoteInfo = "pohang_egrets_watch Watch App";
+		};
+		CC134E942CC365DC000599FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC134E3D2CC362A8000599FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC134E792CC365DB000599FF;
+			remoteInfo = "pohang_egrets_watch Watch App";
+		};
+		CC134E9B2CC365DC000599FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC134E3D2CC362A8000599FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC134E792CC365DB000599FF;
+			remoteInfo = "pohang_egrets_watch Watch App";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC134EA12CC365DC000599FF /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CC134E9D2CC365DC000599FF /* pohang_egrets_watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CC134E452CC362A8000599FF /* pohang_egrets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pohang_egrets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC134E552CC362A9000599FF /* pohang_egretsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pohang_egretsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC134E5F2CC362A9000599FF /* pohang_egretsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pohang_egretsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC134E7A2CC365DB000599FF /* pohang_egrets_watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pohang_egrets_watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC134E892CC365DC000599FF /* pohang_egrets_watch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pohang_egrets_watch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC134E932CC365DC000599FF /* pohang_egrets_watch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pohang_egrets_watch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -43,6 +85,21 @@
 		CC134E622CC362A9000599FF /* pohang_egretsUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = pohang_egretsUITests;
+			sourceTree = "<group>";
+		};
+		CC134E7B2CC365DB000599FF /* pohang_egrets_watch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "pohang_egrets_watch Watch App";
+			sourceTree = "<group>";
+		};
+		CC134E8C2CC365DC000599FF /* pohang_egrets_watch Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "pohang_egrets_watch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		CC134E962CC365DC000599FF /* pohang_egrets_watch Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "pohang_egrets_watch Watch AppUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -69,6 +126,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CC134E772CC365DB000599FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC134E862CC365DC000599FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC134E902CC365DC000599FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +156,9 @@
 				CC134E472CC362A8000599FF /* pohang_egrets */,
 				CC134E582CC362A9000599FF /* pohang_egretsTests */,
 				CC134E622CC362A9000599FF /* pohang_egretsUITests */,
+				CC134E7B2CC365DB000599FF /* pohang_egrets_watch Watch App */,
+				CC134E8C2CC365DC000599FF /* pohang_egrets_watch Watch AppTests */,
+				CC134E962CC365DC000599FF /* pohang_egrets_watch Watch AppUITests */,
 				CC134E462CC362A8000599FF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +169,9 @@
 				CC134E452CC362A8000599FF /* pohang_egrets.app */,
 				CC134E552CC362A9000599FF /* pohang_egretsTests.xctest */,
 				CC134E5F2CC362A9000599FF /* pohang_egretsUITests.xctest */,
+				CC134E7A2CC365DB000599FF /* pohang_egrets_watch Watch App.app */,
+				CC134E892CC365DC000599FF /* pohang_egrets_watch Watch AppTests.xctest */,
+				CC134E932CC365DC000599FF /* pohang_egrets_watch Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,10 +186,12 @@
 				CC134E412CC362A8000599FF /* Sources */,
 				CC134E422CC362A8000599FF /* Frameworks */,
 				CC134E432CC362A8000599FF /* Resources */,
+				CC134EA12CC365DC000599FF /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CC134E9C2CC365DC000599FF /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				CC134E472CC362A8000599FF /* pohang_egrets */,
@@ -163,6 +249,74 @@
 			productReference = CC134E5F2CC362A9000599FF /* pohang_egretsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		CC134E792CC365DB000599FF /* pohang_egrets_watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC134E9E2CC365DC000599FF /* Build configuration list for PBXNativeTarget "pohang_egrets_watch Watch App" */;
+			buildPhases = (
+				CC134E762CC365DB000599FF /* Sources */,
+				CC134E772CC365DB000599FF /* Frameworks */,
+				CC134E782CC365DB000599FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CC134E7B2CC365DB000599FF /* pohang_egrets_watch Watch App */,
+			);
+			name = "pohang_egrets_watch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "pohang_egrets_watch Watch App";
+			productReference = CC134E7A2CC365DB000599FF /* pohang_egrets_watch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC134E882CC365DC000599FF /* pohang_egrets_watch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC134EA22CC365DC000599FF /* Build configuration list for PBXNativeTarget "pohang_egrets_watch Watch AppTests" */;
+			buildPhases = (
+				CC134E852CC365DC000599FF /* Sources */,
+				CC134E862CC365DC000599FF /* Frameworks */,
+				CC134E872CC365DC000599FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC134E8B2CC365DC000599FF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CC134E8C2CC365DC000599FF /* pohang_egrets_watch Watch AppTests */,
+			);
+			name = "pohang_egrets_watch Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "pohang_egrets_watch Watch AppTests";
+			productReference = CC134E892CC365DC000599FF /* pohang_egrets_watch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC134E922CC365DC000599FF /* pohang_egrets_watch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC134EA52CC365DC000599FF /* Build configuration list for PBXNativeTarget "pohang_egrets_watch Watch AppUITests" */;
+			buildPhases = (
+				CC134E8F2CC365DC000599FF /* Sources */,
+				CC134E902CC365DC000599FF /* Frameworks */,
+				CC134E912CC365DC000599FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC134E952CC365DC000599FF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CC134E962CC365DC000599FF /* pohang_egrets_watch Watch AppUITests */,
+			);
+			name = "pohang_egrets_watch Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "pohang_egrets_watch Watch AppUITests";
+			productReference = CC134E932CC365DC000599FF /* pohang_egrets_watch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -184,6 +338,17 @@
 						CreatedOnToolsVersion = 16.0;
 						TestTargetID = CC134E442CC362A8000599FF;
 					};
+					CC134E792CC365DB000599FF = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					CC134E882CC365DC000599FF = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = CC134E792CC365DB000599FF;
+					};
+					CC134E922CC365DC000599FF = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = CC134E792CC365DB000599FF;
+					};
 				};
 			};
 			buildConfigurationList = CC134E402CC362A8000599FF /* Build configuration list for PBXProject "pohang_egrets" */;
@@ -203,6 +368,9 @@
 				CC134E442CC362A8000599FF /* pohang_egrets */,
 				CC134E542CC362A9000599FF /* pohang_egretsTests */,
 				CC134E5E2CC362A9000599FF /* pohang_egretsUITests */,
+				CC134E792CC365DB000599FF /* pohang_egrets_watch Watch App */,
+				CC134E882CC365DC000599FF /* pohang_egrets_watch Watch AppTests */,
+				CC134E922CC365DC000599FF /* pohang_egrets_watch Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +391,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		CC134E5D2CC362A9000599FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC134E782CC365DB000599FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC134E872CC365DC000599FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC134E912CC365DC000599FF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,6 +442,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CC134E762CC365DB000599FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC134E852CC365DC000599FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC134E8F2CC365DC000599FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -265,6 +475,21 @@
 			isa = PBXTargetDependency;
 			target = CC134E442CC362A8000599FF /* pohang_egrets */;
 			targetProxy = CC134E602CC362A9000599FF /* PBXContainerItemProxy */;
+		};
+		CC134E8B2CC365DC000599FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC134E792CC365DB000599FF /* pohang_egrets_watch Watch App */;
+			targetProxy = CC134E8A2CC365DC000599FF /* PBXContainerItemProxy */;
+		};
+		CC134E952CC365DC000599FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC134E792CC365DB000599FF /* pohang_egrets_watch Watch App */;
+			targetProxy = CC134E942CC365DC000599FF /* PBXContainerItemProxy */;
+		};
+		CC134E9C2CC365DC000599FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC134E792CC365DB000599FF /* pohang_egrets_watch Watch App */;
+			targetProxy = CC134E9B2CC365DC000599FF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -518,6 +743,144 @@
 			};
 			name = Release;
 		};
+		CC134E9F2CC365DC000599FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pohang_egrets_watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = GKWM8Q6TMS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = pohang_egrets_watch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.WanJaeLee.pohang-egrets";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WanJaeLee.pohang-egrets.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		CC134EA02CC365DC000599FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pohang_egrets_watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = GKWM8Q6TMS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = pohang_egrets_watch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.WanJaeLee.pohang-egrets";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WanJaeLee.pohang-egrets.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		CC134EA32CC365DC000599FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GKWM8Q6TMS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WanJaeLee.pohang-egrets-watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pohang_egrets_watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pohang_egrets_watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		CC134EA42CC365DC000599FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GKWM8Q6TMS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WanJaeLee.pohang-egrets-watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pohang_egrets_watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pohang_egrets_watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		CC134EA62CC365DC000599FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GKWM8Q6TMS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WanJaeLee.pohang-egrets-watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "pohang_egrets_watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		CC134EA72CC365DC000599FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GKWM8Q6TMS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WanJaeLee.pohang-egrets-watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "pohang_egrets_watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -553,6 +916,33 @@
 			buildConfigurations = (
 				CC134E702CC362A9000599FF /* Debug */,
 				CC134E712CC362A9000599FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC134E9E2CC365DC000599FF /* Build configuration list for PBXNativeTarget "pohang_egrets_watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC134E9F2CC365DC000599FF /* Debug */,
+				CC134EA02CC365DC000599FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC134EA22CC365DC000599FF /* Build configuration list for PBXNativeTarget "pohang_egrets_watch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC134EA32CC365DC000599FF /* Debug */,
+				CC134EA42CC365DC000599FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC134EA52CC365DC000599FF /* Build configuration list for PBXNativeTarget "pohang_egrets_watch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC134EA62CC365DC000599FF /* Debug */,
+				CC134EA72CC365DC000599FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
