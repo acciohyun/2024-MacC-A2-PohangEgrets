@@ -71,35 +71,67 @@
 		CC134E932CC365DC000599FF /* pohang_egrets_watch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pohang_egrets_watch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CC134EB22CC3663D000599FF /* Exceptions for "pohang_egrets" folder in "pohang_egrets" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Test/pohang_egrets_watch Watch AppTests/pohang_egrets_watch_Watch_AppTests.swift",
+				"Test/pohang_egrets_watch Watch AppUITests/pohang_egrets_watch_Watch_AppUITests.swift",
+				"Test/pohang_egrets_watch Watch AppUITests/pohang_egrets_watch_Watch_AppUITestsLaunchTests.swift",
+				Test/pohang_egretsTests/pohang_egretsTests.swift,
+				Test/pohang_egretsUITests/pohang_egretsUITests.swift,
+				Test/pohang_egretsUITests/pohang_egretsUITestsLaunchTests.swift,
+			);
+			target = CC134E442CC362A8000599FF /* pohang_egrets */;
+		};
+		CC134EB32CC3663D000599FF /* Exceptions for "pohang_egrets" folder in "pohang_egretsTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Test/pohang_egretsTests/pohang_egretsTests.swift,
+			);
+			target = CC134E542CC362A9000599FF /* pohang_egretsTests */;
+		};
+		CC134EB42CC3663D000599FF /* Exceptions for "pohang_egrets" folder in "pohang_egretsUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Test/pohang_egretsUITests/pohang_egretsUITests.swift,
+				Test/pohang_egretsUITests/pohang_egretsUITestsLaunchTests.swift,
+			);
+			target = CC134E5E2CC362A9000599FF /* pohang_egretsUITests */;
+		};
+		CC134EC12CC36685000599FF /* Exceptions for "pohang_egrets" folder in "pohang_egrets_watch Watch AppTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Test/pohang_egrets_watch Watch AppTests/pohang_egrets_watch_Watch_AppTests.swift",
+			);
+			target = CC134E882CC365DC000599FF /* pohang_egrets_watch Watch AppTests */;
+		};
+		CC134EC22CC36685000599FF /* Exceptions for "pohang_egrets" folder in "pohang_egrets_watch Watch AppUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Test/pohang_egrets_watch Watch AppUITests/pohang_egrets_watch_Watch_AppUITests.swift",
+				"Test/pohang_egrets_watch Watch AppUITests/pohang_egrets_watch_Watch_AppUITestsLaunchTests.swift",
+			);
+			target = CC134E922CC365DC000599FF /* pohang_egrets_watch Watch AppUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		CC134E472CC362A8000599FF /* pohang_egrets */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CC134EB22CC3663D000599FF /* Exceptions for "pohang_egrets" folder in "pohang_egrets" target */,
+				CC134EB32CC3663D000599FF /* Exceptions for "pohang_egrets" folder in "pohang_egretsTests" target */,
+				CC134EB42CC3663D000599FF /* Exceptions for "pohang_egrets" folder in "pohang_egretsUITests" target */,
+				CC134EC12CC36685000599FF /* Exceptions for "pohang_egrets" folder in "pohang_egrets_watch Watch AppTests" target */,
+				CC134EC22CC36685000599FF /* Exceptions for "pohang_egrets" folder in "pohang_egrets_watch Watch AppUITests" target */,
+			);
 			path = pohang_egrets;
-			sourceTree = "<group>";
-		};
-		CC134E582CC362A9000599FF /* pohang_egretsTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = pohang_egretsTests;
-			sourceTree = "<group>";
-		};
-		CC134E622CC362A9000599FF /* pohang_egretsUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = pohang_egretsUITests;
 			sourceTree = "<group>";
 		};
 		CC134E7B2CC365DB000599FF /* pohang_egrets_watch Watch App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "pohang_egrets_watch Watch App";
-			sourceTree = "<group>";
-		};
-		CC134E8C2CC365DC000599FF /* pohang_egrets_watch Watch AppTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "pohang_egrets_watch Watch AppTests";
-			sourceTree = "<group>";
-		};
-		CC134E962CC365DC000599FF /* pohang_egrets_watch Watch AppUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "pohang_egrets_watch Watch AppUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -154,11 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				CC134E472CC362A8000599FF /* pohang_egrets */,
-				CC134E582CC362A9000599FF /* pohang_egretsTests */,
-				CC134E622CC362A9000599FF /* pohang_egretsUITests */,
 				CC134E7B2CC365DB000599FF /* pohang_egrets_watch Watch App */,
-				CC134E8C2CC365DC000599FF /* pohang_egrets_watch Watch AppTests */,
-				CC134E962CC365DC000599FF /* pohang_egrets_watch Watch AppUITests */,
 				CC134E462CC362A8000599FF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -216,9 +244,6 @@
 			dependencies = (
 				CC134E572CC362A9000599FF /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				CC134E582CC362A9000599FF /* pohang_egretsTests */,
-			);
 			name = pohang_egretsTests;
 			packageProductDependencies = (
 			);
@@ -238,9 +263,6 @@
 			);
 			dependencies = (
 				CC134E612CC362A9000599FF /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				CC134E622CC362A9000599FF /* pohang_egretsUITests */,
 			);
 			name = pohang_egretsUITests;
 			packageProductDependencies = (
@@ -284,9 +306,6 @@
 			dependencies = (
 				CC134E8B2CC365DC000599FF /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				CC134E8C2CC365DC000599FF /* pohang_egrets_watch Watch AppTests */,
-			);
 			name = "pohang_egrets_watch Watch AppTests";
 			packageProductDependencies = (
 			);
@@ -306,9 +325,6 @@
 			);
 			dependencies = (
 				CC134E952CC365DC000599FF /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				CC134E962CC365DC000599FF /* pohang_egrets_watch Watch AppUITests */,
 			);
 			name = "pohang_egrets_watch Watch AppUITests";
 			packageProductDependencies = (
