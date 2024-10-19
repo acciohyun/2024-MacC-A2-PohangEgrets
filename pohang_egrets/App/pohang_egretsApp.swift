@@ -11,7 +11,7 @@ import SwiftUI
 struct pohang_egretsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }

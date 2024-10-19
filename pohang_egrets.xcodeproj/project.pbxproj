@@ -75,44 +75,62 @@
 		CC134EB22CC3663D000599FF /* Exceptions for "pohang_egrets" folder in "pohang_egrets" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"Test/pohang_egrets_watch Watch AppTests/pohang_egrets_watch_Watch_AppTests.swift",
-				"Test/pohang_egrets_watch Watch AppUITests/pohang_egrets_watch_Watch_AppUITests.swift",
-				"Test/pohang_egrets_watch Watch AppUITests/pohang_egrets_watch_Watch_AppUITestsLaunchTests.swift",
-				Test/pohang_egretsTests/pohang_egretsTests.swift,
-				Test/pohang_egretsUITests/pohang_egretsUITests.swift,
-				Test/pohang_egretsUITests/pohang_egretsUITestsLaunchTests.swift,
+				App/pohang_egrets_watchApp.swift,
+				"Preview Content/Preview Assets+Watch.xcassets",
+				"Resource/Assets+iPhone.xcassets",
+				Source/Domain/UseCase/Watch/LiveWorkout.swift,
+				Source/Presentation/Watch/Main/View/MainView.swift,
+				Source/Presentation/Watch/Main/ViewModel/MainViewModel.swift,
+				"Source/Test/pohang_egrets_watch Watch AppTests/pohang_egrets_watch_Watch_AppTests.swift",
+				"Source/Test/pohang_egrets_watch Watch AppUITests/pohang_egrets_watch_Watch_AppUITests.swift",
+				"Source/Test/pohang_egrets_watch Watch AppUITests/pohang_egrets_watch_Watch_AppUITestsLaunchTests.swift",
+				Source/Test/pohang_egretsTests/pohang_egretsTests.swift,
+				Source/Test/pohang_egretsUITests/pohang_egretsUITests.swift,
+				Source/Test/pohang_egretsUITests/pohang_egretsUITestsLaunchTests.swift,
 			);
 			target = CC134E442CC362A8000599FF /* pohang_egrets */;
 		};
 		CC134EB32CC3663D000599FF /* Exceptions for "pohang_egrets" folder in "pohang_egretsTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Test/pohang_egretsTests/pohang_egretsTests.swift,
+				Source/Test/pohang_egretsTests/pohang_egretsTests.swift,
 			);
 			target = CC134E542CC362A9000599FF /* pohang_egretsTests */;
 		};
 		CC134EB42CC3663D000599FF /* Exceptions for "pohang_egrets" folder in "pohang_egretsUITests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Test/pohang_egretsUITests/pohang_egretsUITests.swift,
-				Test/pohang_egretsUITests/pohang_egretsUITestsLaunchTests.swift,
+				Source/Test/pohang_egretsUITests/pohang_egretsUITests.swift,
+				Source/Test/pohang_egretsUITests/pohang_egretsUITestsLaunchTests.swift,
 			);
 			target = CC134E5E2CC362A9000599FF /* pohang_egretsUITests */;
 		};
 		CC134EC12CC36685000599FF /* Exceptions for "pohang_egrets" folder in "pohang_egrets_watch Watch AppTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"Test/pohang_egrets_watch Watch AppTests/pohang_egrets_watch_Watch_AppTests.swift",
+				"Source/Test/pohang_egrets_watch Watch AppTests/pohang_egrets_watch_Watch_AppTests.swift",
 			);
 			target = CC134E882CC365DC000599FF /* pohang_egrets_watch Watch AppTests */;
 		};
 		CC134EC22CC36685000599FF /* Exceptions for "pohang_egrets" folder in "pohang_egrets_watch Watch AppUITests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"Test/pohang_egrets_watch Watch AppUITests/pohang_egrets_watch_Watch_AppUITests.swift",
-				"Test/pohang_egrets_watch Watch AppUITests/pohang_egrets_watch_Watch_AppUITestsLaunchTests.swift",
+				"Source/Test/pohang_egrets_watch Watch AppUITests/pohang_egrets_watch_Watch_AppUITests.swift",
+				"Source/Test/pohang_egrets_watch Watch AppUITests/pohang_egrets_watch_Watch_AppUITestsLaunchTests.swift",
 			);
 			target = CC134E922CC365DC000599FF /* pohang_egrets_watch Watch AppUITests */;
+		};
+		CC134EEE2CC3A52C000599FF /* Exceptions for "pohang_egrets" folder in "pohang_egrets_watch Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				App/pohang_egrets_watchApp.swift,
+				"Preview Content/Preview Assets+Watch.xcassets",
+				"Resource/Assets+iPhone.xcassets",
+				Source/Domain/UseCase/Watch/LiveWorkout.swift,
+				Source/Presentation/Watch/Main/View/MainView.swift,
+				Source/Presentation/Watch/Main/ViewModel/MainViewModel.swift,
+			);
+			target = CC134E792CC365DB000599FF /* pohang_egrets_watch Watch App */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -123,15 +141,11 @@
 				CC134EB22CC3663D000599FF /* Exceptions for "pohang_egrets" folder in "pohang_egrets" target */,
 				CC134EB32CC3663D000599FF /* Exceptions for "pohang_egrets" folder in "pohang_egretsTests" target */,
 				CC134EB42CC3663D000599FF /* Exceptions for "pohang_egrets" folder in "pohang_egretsUITests" target */,
+				CC134EEE2CC3A52C000599FF /* Exceptions for "pohang_egrets" folder in "pohang_egrets_watch Watch App" target */,
 				CC134EC12CC36685000599FF /* Exceptions for "pohang_egrets" folder in "pohang_egrets_watch Watch AppTests" target */,
 				CC134EC22CC36685000599FF /* Exceptions for "pohang_egrets" folder in "pohang_egrets_watch Watch AppUITests" target */,
 			);
 			path = pohang_egrets;
-			sourceTree = "<group>";
-		};
-		CC134E7B2CC365DB000599FF /* pohang_egrets_watch Watch App */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "pohang_egrets_watch Watch App";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -186,7 +200,6 @@
 			isa = PBXGroup;
 			children = (
 				CC134E472CC362A8000599FF /* pohang_egrets */,
-				CC134E7B2CC365DB000599FF /* pohang_egrets_watch Watch App */,
 				CC134E462CC362A8000599FF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -282,9 +295,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				CC134E7B2CC365DB000599FF /* pohang_egrets_watch Watch App */,
 			);
 			name = "pohang_egrets_watch Watch App";
 			packageProductDependencies = (

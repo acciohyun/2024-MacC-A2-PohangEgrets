@@ -32,5 +32,4 @@ final class pohang_egrets_watch_Watch_AppTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-
 }
