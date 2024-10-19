@@ -63,6 +63,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6BD9ADB42CC417AA00B26B8C /* pohang_egrets_watch Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "pohang_egrets_watch Watch App.entitlements"; sourceTree = "<group>"; };
 		CC134E452CC362A8000599FF /* pohang_egrets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pohang_egrets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC134E552CC362A9000599FF /* pohang_egretsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pohang_egretsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC134E5F2CC362A9000599FF /* pohang_egretsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pohang_egretsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,9 +77,10 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				App/pohang_egrets_watchApp.swift,
+				"App/pohang-egrets-watch-Watch-App-Info.plist",
 				"Preview Content/Preview Assets+Watch.xcassets",
 				"Resource/Assets+iPhone.xcassets",
-				Source/Domain/UseCase/Watch/LiveWorkout.swift,
+				Source/Domain/UseCase/Watch/LiveWorkoutUseCase.swift,
 				Source/Presentation/Watch/Main/View/MainView.swift,
 				Source/Presentation/Watch/Main/ViewModel/MainViewModel.swift,
 				"Source/Test/pohang_egrets_watch Watch AppTests/pohang_egrets_watch_Watch_AppTests.swift",
@@ -126,7 +128,9 @@
 				App/pohang_egrets_watchApp.swift,
 				"Preview Content/Preview Assets+Watch.xcassets",
 				"Resource/Assets+iPhone.xcassets",
-				Source/Domain/UseCase/Watch/LiveWorkout.swift,
+				Source/Domain/Entity/WorkoutSummary.swift,
+				Source/Domain/UseCase/Shared/FormatDateUseCase.swift,
+				Source/Domain/UseCase/Watch/LiveWorkoutUseCase.swift,
 				Source/Presentation/Watch/Main/View/MainView.swift,
 				Source/Presentation/Watch/Main/ViewModel/MainViewModel.swift,
 			);
@@ -199,6 +203,7 @@
 		CC134E3C2CC362A8000599FF = {
 			isa = PBXGroup;
 			children = (
+				6BD9ADB42CC417AA00B26B8C /* pohang_egrets_watch Watch App.entitlements */,
 				CC134E472CC362A8000599FF /* pohang_egrets */,
 				CC134E462CC362A8000599FF /* Products */,
 			);
@@ -647,9 +652,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"pohang_egrets/Preview Content\"";
-				DEVELOPMENT_TEAM = GKWM8Q6TMS;
+				DEVELOPMENT_TEAM = LLTXZL34C3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "pohang-egrets-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -677,9 +683,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"pohang_egrets/Preview Content\"";
-				DEVELOPMENT_TEAM = GKWM8Q6TMS;
+				DEVELOPMENT_TEAM = LLTXZL34C3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "pohang-egrets-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -776,13 +783,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "pohang_egrets_watch Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"pohang_egrets/Preview Content\"";
-				DEVELOPMENT_TEAM = GKWM8Q6TMS;
+				DEVELOPMENT_TEAM = LLTXZL34C3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "pohang_egrets/App/pohang-egrets-watch-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = pohang_egrets_watch;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "사용자의 운동을 도와주기 위해서";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "사용자의 운동을 도와주기 위해서";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "사용자의 운동을 도와주기 위해서";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.WanJaeLee.pohang-egrets";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -806,13 +818,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "pohang_egrets_watch Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"pohang_egrets/Preview Content\"";
-				DEVELOPMENT_TEAM = GKWM8Q6TMS;
+				DEVELOPMENT_TEAM = LLTXZL34C3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "pohang_egrets/App/pohang-egrets-watch-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = pohang_egrets_watch;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "사용자의 운동을 도와주기 위해서";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "사용자의 운동을 도와주기 위해서";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "사용자의 운동을 도와주기 위해서";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.WanJaeLee.pohang-egrets";
 				LD_RUNPATH_SEARCH_PATHS = (
