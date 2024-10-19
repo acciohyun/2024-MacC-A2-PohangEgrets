@@ -7,6 +7,6 @@
 
 import Foundation
 
-class WorkoutSummary: ObservableObject {
+class WorkoutSummaryUseCase: ObservableObject {
     
 }
